@@ -8,9 +8,16 @@
 #    name = input("Enter your name: ")
 #print(f"Hello {name}!")
 
-age = int(input("Enter your age "))
+#age = int(input("Enter your age "))
 
-while age < 18:
-    print("Age cannot be negative")
-    age = int(input("Enter your age "))
-print(f"You are {age} years old")                                       
+#while age < 0:
+#    print("Age cannot be negative")
+#    age = int(input("Enter your age "))
+#print(f"You are {age} years old")   
+
+food = input("Enter your fav food ")
+
+while food == "":
+    print("You must enter a dish")
+    food = input("Enter your fav dish : ")
+print(f"Your favorite dish is {food}!")
